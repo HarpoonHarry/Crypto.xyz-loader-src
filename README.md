@@ -1,2 +1,2 @@
-# Crypto.xyz-loader-source
-shit csgo cheat loader paste source unpacked by mihono and HarpoonHaryy
+# Crypto.xyz-shitty-loader-source
+shit csgo cheat loader paste unpacked by mihono and HarpoonHaryy
