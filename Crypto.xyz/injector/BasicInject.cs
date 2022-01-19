@@ -32,7 +32,7 @@ namespace injector
 		[DllImport("kernel32.dll")]
 		private static extern IntPtr CreateRemoteThread(IntPtr hProcess, IntPtr lpThreadAttributes, uint dwStackSize, IntPtr lpStartAddress, IntPtr lpParameter, uint dwCreationFlags, IntPtr lpThreadId);
 
-		// Token: 0x06000013 RID: 19 RVA: 0x00184C04 File Offset: 0x0017FA04
+		// Token: 0x06000013 RID: 19 RVA: 0x001AAACC File Offset: 0x001A46CC
 		public static int Inject(string dllpath, string procname)
 		{
 			Process process = Process.GetProcessesByName(procname)[0];

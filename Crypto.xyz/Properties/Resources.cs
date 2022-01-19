@@ -14,13 +14,13 @@ namespace Crypto.xyz.Properties
 	[CompilerGenerated]
 	internal class Resources
 	{
-		// Token: 0x06000002 RID: 2 RVA: 0x0018405B File Offset: 0x0017EE5B
+		// Token: 0x06000002 RID: 2 RVA: 0x001AA05B File Offset: 0x001A3C5B
 		internal Resources()
 		{
 		}
 
 		// Token: 0x17000001 RID: 1
-		// (get) Token: 0x06000003 RID: 3 RVA: 0x00184066 File Offset: 0x0017EE66
+		// (get) Token: 0x06000003 RID: 3 RVA: 0x001AA066 File Offset: 0x001A3C66
 		[EditorBrowsable(EditorBrowsableState.Advanced)]
 		internal static ResourceManager ResourceManager
 		{
@@ -35,8 +35,8 @@ namespace Crypto.xyz.Properties
 		}
 
 		// Token: 0x17000002 RID: 2
-		// (get) Token: 0x06000004 RID: 4 RVA: 0x00184092 File Offset: 0x0017EE92
-		// (set) Token: 0x06000005 RID: 5 RVA: 0x00184099 File Offset: 0x0017EE99
+		// (get) Token: 0x06000004 RID: 4 RVA: 0x001AA092 File Offset: 0x001A3C92
+		// (set) Token: 0x06000005 RID: 5 RVA: 0x001AA099 File Offset: 0x001A3C99
 		[EditorBrowsable(EditorBrowsableState.Advanced)]
 		internal static CultureInfo Culture
 		{

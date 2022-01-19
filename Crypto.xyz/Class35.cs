@@ -1,10 +1,10 @@
 ﻿using System;
 using System.IO;
 
-// Token: 0x02000021 RID: 33
+// Token: 0x0200001C RID: 28
 internal class Class35
 {
-	// Token: 0x06000149 RID: 329 RVA: 0x0018FA7C File Offset: 0x0018A87C
+	// Token: 0x06000138 RID: 312 RVA: 0x001B55EC File Offset: 0x001AF1EC
 	public void method_0(Stream stream_1)
 	{
 		this.stream_0 = stream_1;
@@ -16,13 +16,13 @@ internal class Class35
 		}
 	}
 
-	// Token: 0x0600014A RID: 330 RVA: 0x00184A1C File Offset: 0x0017F81C
+	// Token: 0x06000139 RID: 313 RVA: 0x001AA8E2 File Offset: 0x001A44E2
 	public void method_1()
 	{
 		this.stream_0 = null;
 	}
 
-	// Token: 0x0600014B RID: 331 RVA: 0x0018FB00 File Offset: 0x0018A900
+	// Token: 0x0600013A RID: 314 RVA: 0x001B5670 File Offset: 0x001AF270
 	public uint method_2(int int_0)
 	{
 		uint num = this.uint_2;
@@ -45,18 +45,18 @@ internal class Class35
 		return num3;
 	}
 
-	// Token: 0x040000BD RID: 189
+	// Token: 0x040000C0 RID: 192
 	private uint uint_0 = 1U;
 
-	// Token: 0x040000BE RID: 190
+	// Token: 0x040000C1 RID: 193
 	public const uint uint_1 = 16777216U;
 
-	// Token: 0x040000BF RID: 191
+	// Token: 0x040000C2 RID: 194
 	public uint uint_2;
 
-	// Token: 0x040000C0 RID: 192
+	// Token: 0x040000C3 RID: 195
 	public uint uint_3;
 
-	// Token: 0x040000C1 RID: 193
+	// Token: 0x040000C4 RID: 196
 	public Stream stream_0;
 }

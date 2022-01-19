@@ -1,9 +1,9 @@
 ﻿namespace gamesense
 {
-	// Token: 0x0200000F RID: 15
+	// Token: 0x02000009 RID: 9
 	public partial class Form1 : global::System.Windows.Forms.Form
 	{
-		// Token: 0x06000090 RID: 144 RVA: 0x001845D2 File Offset: 0x0017F3D2
+		// Token: 0x06000055 RID: 85 RVA: 0x001AA34F File Offset: 0x001A3F4F
 		protected override void Dispose(bool disposing)
 		{
 			if (disposing && this.components != null)
@@ -13,7 +13,7 @@
 			base.Dispose(disposing);
 		}
 
-		// Token: 0x06000091 RID: 145 RVA: 0x0018899C File Offset: 0x0018379C
+		// Token: 0x06000056 RID: 86 RVA: 0x001AE2D0 File Offset: 0x001A7ED0
 		private void InitializeComponent()
 		{
 			this.components = new global::System.ComponentModel.Container();
@@ -33,7 +33,7 @@
 			this.label3.AutoSize = true;
 			this.label3.Font = new global::System.Drawing.Font("Segoe UI Semibold", 10.2f, global::System.Drawing.FontStyle.Bold, global::System.Drawing.GraphicsUnit.Point, 0);
 			this.label3.ForeColor = global::System.Drawing.SystemColors.ButtonFace;
-			this.label3.Location = new global::System.Drawing.Point(11, 9);
+			this.label3.Location = new global::System.Drawing.Point(8, 15);
 			this.label3.Margin = new global::System.Windows.Forms.Padding(2, 0, 2, 0);
 			this.label3.Name = "label3";
 			this.label3.Size = new global::System.Drawing.Size(123, 19);
@@ -42,7 +42,7 @@
 			this.label11.AutoSize = true;
 			this.label11.Font = new global::System.Drawing.Font("MV Boli", 20.25f, global::System.Drawing.FontStyle.Bold | global::System.Drawing.FontStyle.Underline, global::System.Drawing.GraphicsUnit.Point, 0);
 			this.label11.ForeColor = global::System.Drawing.Color.White;
-			this.label11.Location = new global::System.Drawing.Point(94, 36);
+			this.label11.Location = new global::System.Drawing.Point(91, 42);
 			this.label11.Name = "label11";
 			this.label11.Size = new global::System.Drawing.Size(128, 34);
 			this.label11.TabIndex = 71;
@@ -52,18 +52,19 @@
 			this.txtUsername.BorderStyle = global::System.Windows.Forms.BorderStyle.FixedSingle;
 			this.txtUsername.Font = new global::System.Drawing.Font("Segoe UI Semibold", 9.75f, global::System.Drawing.FontStyle.Bold, global::System.Drawing.GraphicsUnit.Point, 0);
 			this.txtUsername.ForeColor = global::System.Drawing.SystemColors.ButtonShadow;
-			this.txtUsername.Location = new global::System.Drawing.Point(48, 82);
+			this.txtUsername.Location = new global::System.Drawing.Point(45, 88);
 			this.txtUsername.Name = "txtUsername";
 			this.txtUsername.Size = new global::System.Drawing.Size(236, 25);
 			this.txtUsername.TabIndex = 73;
 			this.txtUsername.Text = "Username";
+			this.txtUsername.TextChanged += new global::System.EventHandler(this.txtUsername_TextChanged);
 			this.txtUsername.Enter += new global::System.EventHandler(this.txtUsername_Enter);
 			this.txtUsername.Leave += new global::System.EventHandler(this.txtUsername_Leave);
 			this.txtPassword.BackColor = global::System.Drawing.Color.FromArgb(30, 30, 30);
 			this.txtPassword.BorderStyle = global::System.Windows.Forms.BorderStyle.FixedSingle;
 			this.txtPassword.Font = new global::System.Drawing.Font("Segoe UI Semibold", 9.75f, global::System.Drawing.FontStyle.Bold, global::System.Drawing.GraphicsUnit.Point, 0);
 			this.txtPassword.ForeColor = global::System.Drawing.SystemColors.ButtonShadow;
-			this.txtPassword.Location = new global::System.Drawing.Point(48, 118);
+			this.txtPassword.Location = new global::System.Drawing.Point(45, 124);
 			this.txtPassword.Name = "txtPassword";
 			this.txtPassword.Size = new global::System.Drawing.Size(236, 25);
 			this.txtPassword.TabIndex = 74;
@@ -76,7 +77,7 @@
 			this.button1.FlatStyle = global::System.Windows.Forms.FlatStyle.Flat;
 			this.button1.Font = new global::System.Drawing.Font("Segoe UI Semibold", 8.25f, global::System.Drawing.FontStyle.Bold, global::System.Drawing.GraphicsUnit.Point, 0);
 			this.button1.ForeColor = global::System.Drawing.SystemColors.ScrollBar;
-			this.button1.Location = new global::System.Drawing.Point(38, 175);
+			this.button1.Location = new global::System.Drawing.Point(35, 181);
 			this.button1.Name = "button1";
 			this.button1.Size = new global::System.Drawing.Size(255, 27);
 			this.button1.TabIndex = 75;
@@ -88,7 +89,7 @@
 			this.button2.FlatStyle = global::System.Windows.Forms.FlatStyle.Flat;
 			this.button2.Font = new global::System.Drawing.Font("Segoe UI Semibold", 8.25f, global::System.Drawing.FontStyle.Bold, global::System.Drawing.GraphicsUnit.Point, 0);
 			this.button2.ForeColor = global::System.Drawing.SystemColors.ScrollBar;
-			this.button2.Location = new global::System.Drawing.Point(38, 208);
+			this.button2.Location = new global::System.Drawing.Point(35, 214);
 			this.button2.Name = "button2";
 			this.button2.Size = new global::System.Drawing.Size(255, 27);
 			this.button2.TabIndex = 76;
@@ -102,7 +103,7 @@
 			this.button4.FlatStyle = global::System.Windows.Forms.FlatStyle.Flat;
 			this.button4.Font = new global::System.Drawing.Font("Segoe UI Semibold", 11.25f, global::System.Drawing.FontStyle.Bold, global::System.Drawing.GraphicsUnit.Point, 0);
 			this.button4.ForeColor = global::System.Drawing.SystemColors.ScrollBar;
-			this.button4.Location = new global::System.Drawing.Point(292, 3);
+			this.button4.Location = new global::System.Drawing.Point(289, 9);
 			this.button4.Margin = new global::System.Windows.Forms.Padding(2);
 			this.button4.Name = "button4";
 			this.button4.Size = new global::System.Drawing.Size(38, 36);
@@ -115,7 +116,7 @@
 			this.checkBox1.FlatAppearance.BorderSize = 0;
 			this.checkBox1.FlatStyle = global::System.Windows.Forms.FlatStyle.Flat;
 			this.checkBox1.Image = (global::System.Drawing.Image)componentResourceManager.GetObject("checkBox1.Image");
-			this.checkBox1.Location = new global::System.Drawing.Point(254, 122);
+			this.checkBox1.Location = new global::System.Drawing.Point(251, 128);
 			this.checkBox1.Name = "checkBox1";
 			this.checkBox1.Size = new global::System.Drawing.Size(27, 17);
 			this.checkBox1.TabIndex = 0;
@@ -123,7 +124,7 @@
 			this.checkBox1.CheckedChanged += new global::System.EventHandler(this.checkBox1_CheckedChanged);
 			this.checkRemember.AutoSize = true;
 			this.checkRemember.ForeColor = global::System.Drawing.SystemColors.ControlLight;
-			this.checkRemember.Location = new global::System.Drawing.Point(48, 149);
+			this.checkRemember.Location = new global::System.Drawing.Point(45, 155);
 			this.checkRemember.Name = "checkRemember";
 			this.checkRemember.Size = new global::System.Drawing.Size(94, 17);
 			this.checkRemember.TabIndex = 94;
@@ -152,42 +153,42 @@
 			base.StartPosition = global::System.Windows.Forms.FormStartPosition.CenterScreen;
 			this.Text = "Crypto.xyz";
 			base.Load += new global::System.EventHandler(this.Form1_Load);
-			base.MouseDown += new global::System.Windows.Forms.MouseEventHandler(this.Form1_MouseDown);
+			base.MouseMove += new global::System.Windows.Forms.MouseEventHandler(this.Form1_MouseMove);
 			base.ResumeLayout(false);
 			base.PerformLayout();
 		}
 
-		// Token: 0x04000056 RID: 86
+		// Token: 0x04000042 RID: 66
 		private global::System.ComponentModel.IContainer components;
 
-		// Token: 0x04000057 RID: 87
+		// Token: 0x04000043 RID: 67
 		private global::System.Windows.Forms.Timer timer1;
 
-		// Token: 0x04000058 RID: 88
+		// Token: 0x04000044 RID: 68
 		private global::System.Windows.Forms.Label label3;
 
-		// Token: 0x04000059 RID: 89
+		// Token: 0x04000045 RID: 69
 		private global::System.Windows.Forms.Label label11;
 
-		// Token: 0x0400005A RID: 90
+		// Token: 0x04000046 RID: 70
 		private global::System.Windows.Forms.TextBox txtUsername;
 
-		// Token: 0x0400005B RID: 91
+		// Token: 0x04000047 RID: 71
 		private global::System.Windows.Forms.TextBox txtPassword;
 
-		// Token: 0x0400005C RID: 92
+		// Token: 0x04000048 RID: 72
 		private global::System.Windows.Forms.Button button1;
 
-		// Token: 0x0400005D RID: 93
+		// Token: 0x04000049 RID: 73
 		private global::System.Windows.Forms.Button button2;
 
-		// Token: 0x0400005E RID: 94
+		// Token: 0x0400004A RID: 74
 		private global::System.Windows.Forms.Button button4;
 
-		// Token: 0x0400005F RID: 95
+		// Token: 0x0400004B RID: 75
 		private global::System.Windows.Forms.CheckBox checkBox1;
 
-		// Token: 0x04000060 RID: 96
+		// Token: 0x0400004C RID: 76
 		private global::System.Windows.Forms.CheckBox checkRemember;
 	}
 }

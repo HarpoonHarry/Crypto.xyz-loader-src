@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Runtime.InteropServices;
 
-// Token: 0x02000018 RID: 24
+// Token: 0x02000013 RID: 19
 public class GClass0
 {
-	// Token: 0x060000BA RID: 186 RVA: 0x0018A790 File Offset: 0x00185590
+	// Token: 0x060000A9 RID: 169 RVA: 0x001B0304 File Offset: 0x001A9F04
 	public GClass0()
 	{
 		if (GClass0.uint_0 == null)
@@ -29,7 +29,7 @@ public class GClass0
 		}
 	}
 
-	// Token: 0x060000BB RID: 187 RVA: 0x0018A858 File Offset: 0x00185658
+	// Token: 0x060000AA RID: 170 RVA: 0x001B03CC File Offset: 0x001A9FCC
 	public uint method_0(IntPtr intptr_0, uint uint_1)
 	{
 		uint num = 0U;
@@ -42,6 +42,6 @@ public class GClass0
 		return ~num;
 	}
 
-	// Token: 0x04000080 RID: 128
+	// Token: 0x04000083 RID: 131
 	private static uint[] uint_0;
 }

@@ -3,9 +3,9 @@
 // Token: 0x02000001 RID: 1
 internal class <Module>
 {
-	// Token: 0x06000001 RID: 1 RVA: 0x00184048 File Offset: 0x0017EE48
+	// Token: 0x06000001 RID: 1 RVA: 0x001AA048 File Offset: 0x001A3C48
 	static <Module>()
 	{
-		new GClass5().method_112(null, 1522768);
+		new GClass5().method_112(null, 2279052);
 	}
 }

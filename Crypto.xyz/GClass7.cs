@@ -1,10 +1,10 @@
 ﻿using System;
 using System.IO;
 
-// Token: 0x02000024 RID: 36
+// Token: 0x0200001F RID: 31
 public class GClass7
 {
-	// Token: 0x06000154 RID: 340 RVA: 0x0018FE50 File Offset: 0x0018AC50
+	// Token: 0x06000143 RID: 323 RVA: 0x001B59C0 File Offset: 0x001AF5C0
 	public void method_0(uint uint_5)
 	{
 		if (this.uint_1 != uint_5)
@@ -16,7 +16,7 @@ public class GClass7
 		this.uint_2 = 0U;
 	}
 
-	// Token: 0x06000155 RID: 341 RVA: 0x0018FEA8 File Offset: 0x0018ACA8
+	// Token: 0x06000144 RID: 324 RVA: 0x001B5A18 File Offset: 0x001AF618
 	public void method_1(Stream stream_1, bool bool_0)
 	{
 		this.method_2();
@@ -29,14 +29,14 @@ public class GClass7
 		}
 	}
 
-	// Token: 0x06000156 RID: 342 RVA: 0x00184A7E File Offset: 0x0017F87E
+	// Token: 0x06000145 RID: 325 RVA: 0x001AA944 File Offset: 0x001A4544
 	public void method_2()
 	{
 		this.method_3();
 		this.stream_0 = null;
 	}
 
-	// Token: 0x06000157 RID: 343 RVA: 0x0018FEFC File Offset: 0x0018ACFC
+	// Token: 0x06000146 RID: 326 RVA: 0x001B5A6C File Offset: 0x001AF66C
 	public void method_3()
 	{
 		uint num = this.uint_0 - this.uint_2;
@@ -52,7 +52,7 @@ public class GClass7
 		this.uint_2 = this.uint_0;
 	}
 
-	// Token: 0x06000158 RID: 344 RVA: 0x0018FF80 File Offset: 0x0018AD80
+	// Token: 0x06000147 RID: 327 RVA: 0x001B5AF0 File Offset: 0x001AF6F0
 	public void method_4(uint uint_5, uint uint_6)
 	{
 		uint num = this.uint_0 - uint_5 - 1U;
@@ -78,7 +78,7 @@ public class GClass7
 		}
 	}
 
-	// Token: 0x06000159 RID: 345 RVA: 0x00190068 File Offset: 0x0018AE68
+	// Token: 0x06000148 RID: 328 RVA: 0x001B5BD8 File Offset: 0x001AF7D8
 	public void method_5(byte byte_1)
 	{
 		byte[] array = this.byte_0;
@@ -91,7 +91,7 @@ public class GClass7
 		}
 	}
 
-	// Token: 0x0600015A RID: 346 RVA: 0x001900C4 File Offset: 0x0018AEC4
+	// Token: 0x06000149 RID: 329 RVA: 0x001B5C34 File Offset: 0x001AF834
 	public byte method_6(uint uint_5)
 	{
 		uint num = this.uint_0 - uint_5 - 1U;
@@ -102,24 +102,24 @@ public class GClass7
 		return this.byte_0[(int)num];
 	}
 
-	// Token: 0x040000C8 RID: 200
+	// Token: 0x040000CB RID: 203
 	private byte[] byte_0;
 
-	// Token: 0x040000C9 RID: 201
+	// Token: 0x040000CC RID: 204
 	private uint uint_0;
 
-	// Token: 0x040000CA RID: 202
+	// Token: 0x040000CD RID: 205
 	private uint uint_1;
 
-	// Token: 0x040000CB RID: 203
+	// Token: 0x040000CE RID: 206
 	private uint uint_2;
 
-	// Token: 0x040000CC RID: 204
+	// Token: 0x040000CF RID: 207
 	private Stream stream_0;
 
-	// Token: 0x040000CD RID: 205
+	// Token: 0x040000D0 RID: 208
 	private uint uint_3 = 1U;
 
-	// Token: 0x040000CE RID: 206
+	// Token: 0x040000D1 RID: 209
 	public uint uint_4;
 }
