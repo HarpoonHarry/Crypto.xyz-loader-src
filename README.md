@@ -1,3 +1,5 @@
 # Crypto.xyz Shit Cheat
 
-## $$$ Cracked by mihono HarpoonHarry and Oak $$$
+##  literally has shit protection 
+
+i dont guaranteed that the file is safe
